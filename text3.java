@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package edu.zuj.oop.week2;
 
-/**
- *
- * @author user
- */
 public class text3 {
+    public static void main(String[] args) {
+        Scanner in=new Scanner (System .in);
+                System.out.println("To convert m to feet :");
+                System.out.print("Enter the number:");
+                int num=in.nextInt();
+                double ev=3.28*num;
+                System.out.println("Result= "+ev +" feet");;
+    }
     
 }
