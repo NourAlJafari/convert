@@ -8,7 +8,7 @@ Scanner in=new Scanner (System .in);
         System.out.println("Enter the number in cm :");
         int num=in.nextInt();
         double evlue=num*0.393701;
-        System.out.println("Result= "+evlue +" inch");
+        System.out.println("Result= "+evlue +" inche");
         
     }
     
